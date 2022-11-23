@@ -1,0 +1,14 @@
+body {
+    background: white;
+    margin: 0;
+}
+img {
+    width: 100%;
+}
+
+.gallery-container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns:minmax(300px, 500px) 1fr minmax(300px, 500px);
+    gap: 1ex;
+}
